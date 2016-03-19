@@ -24,3 +24,5 @@ module LaAdventures
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
+
+config.autoload_paths += %W(#{config.root}/app/uploaders)
