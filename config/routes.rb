@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :comments
   root 'adventures#index'
   resources :adventures
   # The priority is based upon order of creation: first created -> highest priority.
