@@ -1,5 +1,11 @@
 <p id="notice"><%= notice %></p>
 
+<p><b>Name: </b><%= @adventure.name %></p>
+<p><b>Description: </b><%= @adventure.description %></p>
+<p><b>Address: </b><%= @adventure.address %></p>
+  <p><b>Latitude: </b><%= @adventure.latitude %></p>
+  <p><b>Longitude: </b><%= @adventure.longitude %></p>
+
 <div class="row">
   <div class="col-md-9">
     <%= image_tag(@adventure.picture_url, width: '100%') if @adventure.picture.present? %>
