@@ -25,6 +25,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'carrierwave'
 
+#Geocoder is an excellent gem for converting addresses and coordinates, finding nearby locations and determining distances
+gem 'geocoder'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
